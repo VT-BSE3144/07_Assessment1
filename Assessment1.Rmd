@@ -28,7 +28,7 @@ assessment <- read_file("Assessment1.Rmd") %>%
 
 This project-based assessment contains `r length(assessment)` questions or tasks, with point values varying from `r min(assessment)` to `r max(assessment)`, corresponding to how much effort we expect you to put into each questions or task. Altogether this assessment is worth `r sum(assessment)` points, for reference. So a `r sum(assessment)/10` point question/task should take ~1/10th of the total time you spend on this project. You will have 1 whole week in class to finish this project (and the week of spring break to polish it, if you want). We fully expect you to be able to finish this project in the 2 class hours plus 4-6 hours you should spend outside of class working through materials in a typical week. So that `r sum(assessment)/10` point question/task should take ~30-45 minutes to complete, not including troubleshooting errors. Everyone works at different paces and has different innate abilities, but if you appear to have put much less effort than expected into a question task you will receive less than the full allotted points. If you have gone above and beyond the requirements of the question/task you may receive more than the allotted points.
 
-Within the document below you will find point totals for each task/question marked with a "+", e.g. +3. 
+Within the document below you will find point totals for each task/question marked with a "+", and the number of points. 
 
 ```
 ```{text Directions, include=FALSE}
@@ -100,7 +100,7 @@ Any text that is flanked by two asterisk's `**` (which causes text to appear in 
 
 +1
 
-**Was your dataset and/or the conclusions from it peer reviewed?**
+**Was your dataset and/or the conclusions from it published anywhere on the web or in a peer-reviewed scientific journal?**
 
 +1
 
@@ -113,13 +113,15 @@ Any text that is flanked by two asterisk's `**` (which causes text to appear in 
 +2
 
 ```{r}
-# **Tidy your data here if necessary, or check that it is tidy, following the guidelines from Week 1**
+# **Tidy your data here if necessary, or check that it is tidy, 
+# following the guidelines from Week 1**
 # +1
+
 ```
 
 
 ```{r}
-# **Replace this with code to view the first 6 rows of your chosen tidied data set**
+# **Write code below to view the first 6 rows of your chosen tidied data set**
 #+1 
 
 ```
@@ -130,7 +132,7 @@ Any text that is flanked by two asterisk's `**` (which causes text to appear in 
 
 ## Questions you could ask and answer using this data
 
-**What are 3 possible questions you could ask about/with this data?**
+**What are 3 possible questions you could ask, _with your current skills from this class_, about/with this data?**
 
 1. +2 
 2. +2
