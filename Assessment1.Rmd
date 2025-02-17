@@ -144,7 +144,7 @@ DO NOT DELETE THE +# point indicators or you will lose points!!!
 
 ## Questions you could ask and answer using this data
 
-**What are 3 possible questions you could ask, _with your current skills from this class_, about/with this data?**
+**What are 3 possible questions you could ask, _with your current skills from this class making tables, summary statistics and plots_, about/with this data?**
 
 1. +2 
 2. +2
@@ -154,7 +154,7 @@ DO NOT DELETE THE +# point indicators or you will lose points!!!
 
 **In this section we want you to demonstrate your ability to wrangle data using functions from the dplyr and tidyr packages. Towards answering the questions you pose above, complete the following:**
 
-## Convert a numerical variable from one unit to another, or create a new variable to help you answer one of your questions
+## Convert a numerical variable from one unit to another, or create a new variable to help you answer one of your questions using `mutate`
 
 **Describe your reasoning behind creating this new variable.**
 
@@ -166,7 +166,7 @@ DO NOT DELETE THE +# point indicators or you will lose points!!!
 # +2
 ```
 
-## Create a summary table that will help you answer one of your questions above
+## Create a summary table that will help you answer one of your questions abov using `summarize`
 
 **Describe the summary table you plan to make and why.**
 
