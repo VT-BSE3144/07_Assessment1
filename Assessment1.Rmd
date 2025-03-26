@@ -1,7 +1,7 @@
 ---
 title: "BSE3144 - Assessment 1"
 author: "your name here"
-date: "2024-03-15"
+date: "`r Sys.Date()`"
 output:
   pdf_document:
     df_print: tibble
@@ -225,11 +225,6 @@ DO NOT DELETE THE +# point indicators or you will lose points!!!
 
 ```{r}
 # **Write code here to create your plot**
-
-
-# +3
-```
->>>>>>> 4130494a5b02c13f46377250385443a0784da021
 
 
 # +3
